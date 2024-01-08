@@ -20,5 +20,7 @@ basic.forever(function () {
     serial.writeLine("REQUEST(Sheet3,F414)")
     basic.pause(200)
     serial.writeLine("URL(https://docs.google.com/spreadsheets/d/1zX8XiftKqrxGiFI5nmw1hhmamDaujJcoGMLj1WMFL2E/edit?usp=sharing)")
-    basic.pause(4600)
+    basic.pause(5000)
+    serial.writeLine("WHAT(TIME)")
+    basic.pause(5000)
 })
